@@ -59,6 +59,30 @@ Working through this project gave me hands-on experience with:
 
 RAG systems like this have direct applications in evaluation work as querying a corpus of hundreds of evaluation reports and getting answers that understand the relationships between findings, recommendations, and outcomes, not just keyword matches. That's the kind of AI-for-impact potential that motivated this project.
 
+
+---
+
+## Live Demo
+
+**[Access the Live Demo here](https://shkamila.loca.lt)**
+
+This is a working prototype built using IFAD Country Strategy and Programme Evaluations (CSPEs) as the document corpus. The system ingests evaluation reports, automatically builds a knowledge graph of entities and relationships, and enables intelligent querying across the full corpus using multiple retrieval modes (naive, local, global, hybrid).
+
+*Note: The demo is hosted on a temporary tunnel and may occasionally be unavailable. If the link is not accessible, please refer to the screenshots below for a walkthrough of the system's capabilities.*
+
+### Knowledge Graph Visualization
+
+The knowledge graph below shows entities and relationships automatically extracted from IFAD evaluation documents. Each node represents an entity (e.g., a programme, country, institution, or concept), and edges represent relationships between them.
+
+![Knowledge Graph](README.assets/knowledge_graph.png)
+
+### Retrieval Interface
+
+The retrieval interface allows natural language queries across the evaluation corpus. Below is an example query demonstrating the system's ability to synthesize findings across multiple IFAD country evaluations, with source attribution.
+
+![Retrieval Query](README.assets/retrieval_query.png)
+
+![Retrieval Results](README.assets/retrieval_results.png)
 ---
 
 ## License & Attribution
