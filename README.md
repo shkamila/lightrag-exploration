@@ -1,6 +1,6 @@
-# LightRAG Exploration 🔍
+# LightRAG Exploration
 
-A weekend exploration of [LightRAG](https://github.com/HKUDS/LightRAG) — a graph-based Retrieval-Augmented Generation (RAG) system that combines knowledge graphs with vector search for smarter, more context-aware document Q&A.
+A graph-based Retrieval-Augmented Generation (RAG) system that combines knowledge graphs with vector search for smarter, more context-aware document Q&A.
 
 > Built on top of the [HKUDS/LightRAG](https://github.com/HKUDS/LightRAG) open-source project (MIT License) as a hands-on learning exercise.
 
@@ -8,7 +8,7 @@ A weekend exploration of [LightRAG](https://github.com/HKUDS/LightRAG) — a gra
 
 ## Why I Built This
 
-I came across LightRAG while exploring the latest RAG architectures and wanted to understand how **GraphRAG** compares to naive vector search in practice. The idea of combining knowledge graphs with embeddings — so the system understands *relationships* between concepts, not just similarity — immediately clicked with me as a more powerful approach for real-world document analysis.
+I came across LightRAG while exploring the latest RAG architectures and wanted to understand how GraphRAG compares to naive vector search in practice. The idea of combining knowledge graphs with embeddings, so the system understands relationships between concepts, not just similarity.
 
 I set this up over a weekend to get hands-on experience with the full stack: from ingesting documents, to building the knowledge graph, to querying it with different retrieval modes.
 
@@ -59,7 +59,7 @@ Working through this project gave me hands-on experience with:
 
 ## Relevance to Evaluation & Knowledge Management
 
-RAG systems like this have direct applications in evaluation work — imagine querying a corpus of hundreds of evaluation reports and getting answers that understand the *relationships* between findings, recommendations, and outcomes, not just keyword matches. That's the kind of AI-for-impact potential that motivated this project.
+RAG systems like this have direct applications in evaluation work as querying a corpus of hundreds of evaluation reports and getting answers that understand the relationships between findings, recommendations, and outcomes, not just keyword matches. That's the kind of AI-for-impact potential that motivated this project.
 
 ---
 
