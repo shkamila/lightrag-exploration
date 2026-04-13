@@ -2,8 +2,6 @@
 
 A graph-based Retrieval-Augmented Generation (RAG) system that combines knowledge graphs with vector search for smarter, more context-aware document Q&A.
 
-Built on top of the [HKUDS/LightRAG](https://github.com/HKUDS/LightRAG) open-source project (MIT License) as a hands-on learning exercise.
-
 ---
 
 ## Why I Built This
